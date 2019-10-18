@@ -1,0 +1,268 @@
+body {
+	margin: 0px;
+	font-family: 'Amatic SC', auto;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	height: 7vh;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	background-color: darksalmon;
+	z-index: 3;
+}
+
+.row {
+	margin-right: 0px;
+}
+.nav-links {
+	display: flex;
+}
+
+.nav-link > a {
+	text-decoration: none;
+	color: white;
+	font-family: 'Amatic SC',auto;
+    	font-size: 26px;
+}
+
+.nav-title > h5 {
+	margin-bottom: 0px;
+	margin-left: 7px;
+	font-family: 'Amatic SC', auto;
+	font-weight: bold;
+	font-size: 33px;
+}
+
+.welcome-screen {
+	width: 100%;
+	height: 100vh;
+	background-image: url('./images/plain.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.figure {
+	margin: 20px 40px;
+	height: 150px;
+	width: 300px;
+	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+}
+
+.figure > img {
+	max-height: 140px;
+}
+
+.i-am-container {
+	position: absolute;
+	bottom: 72px;
+	left: 36px;
+}
+
+#typewriter-wrapper {
+	border-right: 0.2em solid black;
+}
+
+h1 {
+	font-family: 'Waiting for the Sunrise', cursive; 
+}
+#about-me{
+	min-height: 100vh;
+	width: 100vw;
+	background-color: rgba(233,150,122,0.1);
+}
+
+#about-me > .row{
+	min-height: 50%;
+	
+}
+
+#about-me > .row > div {
+	height: 100%;
+	justify-content: center;
+	padding: 15px 35px 0px 35px;
+	text-align: justify;
+	font-family: monospace;
+	font-size: large;
+}
+
+#projects {
+	min-height: 100vh;
+}
+
+.vertical {
+	flex-direction: column;
+}
+
+.circle-image {
+	height:300px;
+	width:310px;
+	border-radius: 50%;
+	background-image: url('./images/Nate+I.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.image-square {
+	padding-top: 3px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 5; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  justify-content: center;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 3% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carousel.slide {
+	height: 400px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.github {
+	height: 90px;
+	width: 90px;
+}
+
+footer > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 18px;
+}
+#about-me > .row > div > h2{
+	text-decoration: underline;
+}
+
+.carousel-container {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	height:70%;
+	width:90%;
+}
+
+.myslides {
+	height:90%;
+	width:100%;
+    	background-size: contain;
+    	background-position: center center;
+    	background-repeat: no-repeat;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+footer{
+    background-color: rgba(233,150,122,0.1);
+}
+
+.projects-title {
+text-decoration: underline;
+    font-weight: 800;
+}
+
+.figure-caption {
+
+	font-weight: 700;
+    	font-size: medium;
+    	margin-bottom: 7px;
+    	margin-top: 5px;
+}
+
+#modal-description {
+	margin: 0px 30px;
+	font-size: 20px;
+}
+
+#modal-title{
+	margin-left:60px;
+	font-weight: 500;
+	font-size: 30px;
+}

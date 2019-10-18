@@ -1,0 +1,147 @@
+					<!-- 
+						What do I put in here? 
+						- care for others... 
+						- connect with meaning..
+						- speak of them
+						- Do not make a graven image (Something dynamic, but what? A slideshow? A changing text thing? I wouldn't mind a series of images which make a kind of animation, I think it would be fairly interesting, but I'm not sure. Also is the possibility to do a changing text thing. The animation thing is likely not to difficult either, but finding the series of images may be tricky, I'm not even sure if it is a good kind of idea)
+					-->
+
+I think there is freedom in going one's own way, in not caring about being seen. In existing and trying to be free. I think there is meaning in this. It is good to exist.. Or maybe there is value in being together.
+
+I want to add amendments to the header which I have to improve it slightly and to try and bring forth some good through this because it is something which I think could be a good thing. The title looks pretty plain in honesty it does not seem like there is a lot going on. How can I improve it? text family? Do I change the background 
+
+I want it to be sticky, so that it continues to navigate through the page, and I think that this matters in a kind of sense.
+
+Okay position sticky isn't working, I think I should come back to this though.
+
+I think the about-me section is super important, but I think that I am not sure how to be doing this at the moment, and so I wish to be kind of adding more to this in a sense.
+
+At least I have some kind of purpose at the moment, I want to be seeking that which is good. I think I may need some help with the modalkind of think. 
+
+With the about-me section: 
+
+- love the L-rd, 
+- speak of them
+- cleave to Him. 
+- 'I am the L-rd'
+- have a relationship with Life. 
+I am unsure which things to include --> my values, a bit about my life, likes and dislikes(?) 
+
+I don't know how I should be doing the values of mine sections, there is so much which I could be doing, and I have many values and I am generally a value driven person and I think that this is a good thing. i think it is hard to incorporate a lot of values into what is a kind of small space and so I'm not sure exactly how I should be doing this, it is kind of hard and so I kind of think I should not escape and just have a general kind of descrtiption and then this can be changed later if I would like.
+
+Okay the positioning of this is kind of terrible. Should I utilise the slideshow which I created, I want to, for the sake of not wasting and I think it could be something which is pretty beneficial and a good thing to be doing. Yet, I am not sure exactly of what to be doing, or how to be dealing with it. For the sake of care, love for others, and compassion I think it may be a good thing, and it aves me having to do much more work in seeking something else to be doing. 
+
+I'm not super keen on the header color, I think the about me page requires a fair bit of styling, I think it is a good thing not to be excessivly writing in this section, to keep it in consumable sizes because this is something which matters a bit and I think it matters. 
+
+Shit, I'm so worried about money, but here Ia m doing much of my development outsideof the house, buying beers and other drinks and spending quite a bit of money. I fear this is not sustainable, and I don't know if I am really being more fruitful in honesty. So I am super worried about this and about what may happen. Please help me, please help me to be doing good. For I adore You.
+
+I think I should be redoing the ashes of the red heifer. For this is something which is pretty important to me and I wish to be doing some form of good, through this or through something. I do not know how , I am scared to do it and I am scared of pretty much everything and I hate it, I hate being scared, I really hate it.I hate to think of how much money I have spent today, over twenty something pounds so far and it doesn't even seem like it is enough. I',m torn because if I had the money I would sit and eat and worship my beliefs and prepare service. I think that this is what I should be doing, because I think it is concordant with freedom. Man I hate to think what is going to happen to me. Please help me with money Hashem, I beg of You to help me, to help me to live and to help me to be doing that which is good. And to appreciate that which exists and not to be alone. I hate the financial situation which I am, but I am poor, I owe money, I am in my overdraft, I am lounging of my brother and his wife, I hate this thought, I hate what is going on, the issue isn't spending money, but rather it is finding a decent income, one which is better than that which I had before and through doing a little bit better than with earning money. Without a source of income I do not know what I am going to be doing. I love You, and besides the money thing I have a lot, I have my beliefs, I have faith and I have the ability to be doing some good and the ability to achieve change as well. I adore You a loit, and I think that You are special and kind and also good to me. I hate worrying about money, and I am also terrible with saying no to myself, and yet I still do not understand many things, in my Life. There is so much I do not understand and I think I do not give myself credit in the proper manner, I am tired a bit and I have tried quite a lot today. It is not something which is super easy for me. 
+
+
+I want to be adding to and appreciating that which I already have: 
+- be fruitful and multiply, 
+- do so in accordance with my values and beliefs (I am the L-rd...)
+- cleave to Him. 
+- Appreciate that which I have (which has come from G-d)
+- pursue work which incorporates my belief s(meaning, values). 
+- pursue that which is beyond my limitations
+
+			<!--Gosh I'm not sure I want this to take up a whole page... eeek! Well it doesn't have to, to be honest.Okay well here I can speak of my beliefs, and perhaps some other things as well and so I think that this could be a rather good thing. I do not know how much content I should or could be reusing from the previous version of doing this? Do I use circles or is that something which is silly?-->
+
+
+Okay I feel so anxious about this but I really want to be doing good and I am doing this for myself and I should not worship ideas or ideals, I just feel nervous but it is okay to be scared. 
+
+
+Add suitable content to the modals: 
+ -cleave to Him, speak of them, love Him,eat be sated, care for others. 
+	- I want to store them in a key library with a single n=modal, because this is so much easier for me, and I think it is better and more efficient, if I struggle with this then I can change (care for others, fear the L-rd)
+	- perhaps get the functionality of this working first and then continue with this.
+
+I mentioned that I wish to complete this by tonight, and this is some kind of true, I hope to be doing some good through this and to be achieving some love because it is something which is important to me, and I love You and You are my God, my King and I wish to serve You. This is just one possibility and it may not be true.
+
+Okay so wow, this is working pretty well in all honesty, it is not something which is perfect, admittedly, but it it something which is still pretty cool, and I think that this is awesome and pretty great, it makes me somewhat happy and I am happy about this, I wish to serve You, and to be doing well and so thank You for this. I think that I then wish to be continuing with the content which is within this. So what is the next step? I suppose it is. 
+So what is the next thing for me to be doing? Well I think there are a few things, so let me establish them and then I may continue. 
+
+To do: 
+
+Add content for the projects page: 
+	- speak of them. 
+	- eat be sated, and bless the L-rd...
+	- Love Hashem, 
+	- connect with meaning from my past. 
+	- care for others (I struggled with a lot of them). 
+
+Style the projects section better: 
+	- Do not make a graven image
+	- make fringes to the corner, (praising, glorifying meaning.)
+	- walk in His ways. 
+	- connect with freedom (There is freedom in how I may go about this). 
+
+Enable mobile responsiveness
+	- cleave to Him
+	- care for others. 
+	- walk in His ways. 
+	- Do not make a graven image.
+
+Add a footer? 
+	- eat, be sated, and bless. 
+	- Is there much more info for me to add? 
+		- contact info....
+		- potentially CV...
+
+Review whole? 
+	- eat be sated. 
+	- do not eat the sinew of the thigh.. 
+	- incorporate consciousness... 
+
+Ensure the projects are suitable to upload: 
+	- fear the L-rd
+	- connect with feeling
+	- add fringes to the corner of your garments. 
+	- let in consciousness 
+	- do not make a graven image. 
+
+Okay, well I am very scared because I feel like there is a lot to be doing still. I am especially scared of making changes to the projects which I have, and I think I should either make the modal something which is more fluid like a video example, or through making it a slideshow thing. The video could be easier than I think in all honesty. And I think in the best sense I should be having both.
+
+BAsically I have added the content for the orijects section, minus the images,a dn I am well aware that this is a base and it is not the finished piece this is the one thing about being conscious about being able to add things later is that it enables me to be lax about some things, in a ssense it takes the pressure off a bit, but it also prevents me a little bit from being more conscious about the quality of things a bit.
+
+I think a lot of the hard bits, a lot fo the technical bits I have achieved there is functionality across almost the lot, and so I guess the rest is other things, raising it up in a small sense, trying to improve it. To glorify and to add to that which is kind of here. So I feel relatively good I just feel anxious about the smalle things but I don't really think it is something which I should let get to me too much, just to kind of do well, to soldier on, to care about some of the small things, about others, and about meaning. It is not about bugs for me but about doing some level of good. I am hungry!!!!!
+
+I am having issues to do a couple of things, I am struggling to format the projects section in a better manner, and I am also struggling to deal with the resonsiveness of the site and this is something which bothers me a fair bit.
+
+
+I'm not going to worry about the cv right now, and so I think I can either come back to this or add it later, because it is not something which is the main thing at the moment. I can also craft the draft email, because it may be a good thing to turn onto something else, but I'm not certain if I want to. The main thing next for me is the portfolio section, and also the styling of the footer section because I think that this matters a bit.
+
+I don't like listing everything there is to be doing in one go because it feels daunting! And it feels like there is too much and it is breaking things down but I think in a way which does not help to manage the workload - like there is still a lot to be consuming in one go.
+
+					<!--
+					Doing the modal thing I think is good practice for me. I think it should just be like a single modal and the content of it can change.
+					-->
+
+Regardless of the end-goal, of trying to get this and trying to finish this tonight, I have still made some very good progress with this, and for this I am glad and I am grateful and so I love You and I think You are special and good to me and I wish to continue be doing that which is good to You. Thanks for the food!!!!!!
+
+Thank You for Your help, I am grateful, and I hope that good things continue through this, I hope to achieve some good, and to be doing some of that which is well and good.
+
+Regarding values, values, values, i.e. the jerusalem, or the bringing forth of teachings thing, this is a chance for me to raise it up. Yes, I do feel anxious about sharing it, and it is something which I feel nervous about. I want the job opp for the Temple to bring forth and establish my beliefs and because it is important for me. I want to overcome my limitations and the struggles I am facing and to connect with Life.
+
+I have a problem with the about-me section which is overflowing into the projects section. It is a bit bothersome because the project section is not adjusting accordingly to be shifted down. Thank You!!! 
+
+I have a problem where sometimes when the page is being loaded the font correct font does not change with it and this bothers me quite a bit. Perhaps it would be fixed, I am not sure. I would rather it is not displayed until the right font appears but I do not know how to deal with this. 
+
+Everyone has got a bit of personality somewhere and so I think that this is something which is special. Sometimes it is hard for me to come out of my shell. 
+
+row -> flex col
+div: font-size --> 45px, justify-text: left, increase title size
+
+
+Mobile responsiveness: 
+
+Projects are too small 
+modal is too big 
+
+Working with wordpress doing professional websites amy help me with my main weakness which is perhaps professionalism which I feel is not a weakness but a blessing in many ways. And perhaps being a bit more design orientated in my code. Because I think that I have for a long time feared, that this is like idealisation and not a good thing, and I have focused a lot more on the functional aspects of coding. 
+
+There is really a lot of freedom in Life and there are lots of way to connect with Life and to be doing things and I believe in you. I think that You are special and good to me. I know You are kind and good to me. You are my God and You are good to me, You always have been and I love Life in return. I think You are special and good to me. I wish to connect with good. Yet, I am really struggling with a few things, with the pressure of trying and wanting to finish this portfolio task quickly, it is something which is quite annoying in honesty, it is about 7pm. I do not know what will be. I believe in meaning. I'm struggling to deal with confidence for I fear that this is not professional enough, I also fear that I am struggling with the responsiveness of this and this bothers me. I am also worried that the lady would say no, but the portfolio page is important regardless of this, because it can be used for so much. I am very grateful that she did not reach out to me until now, because I was aunable to be doing these things beforehand and so it came at a good time. I hope I really hope to reply to her tomorrow, but I do not know if I would be able to. I am worried about how much work there is to be doing on the portfolio still. I am worried that I have not been working on enough professional projects already. I am worried about the images for this, I am scared of worshipping ideas. I also think that this would be a very good gig for me, it would not be the most tech advanced if I were to use wordpress, but I still think it would be something which is pretty good.I am worried about being lead astray, I am now worried about smoking, and I am scared of how long this could take. Is there anything else? Well it is still a small site, it is not massive, there are only a few projects, no massive one's which are on there at the moment.
+
+I want this for so many things! 
+But largely for the Sanctuary, so incorporate my values into this, give them a place, lend my consciousness tot hat which is good and to love, because this is something which is important and matters.
