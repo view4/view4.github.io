@@ -23,7 +23,7 @@ functions.start = function() {
 
 	//Event listeners to open modal
 	var projects = document.getElementsByTagName('figure');
-	console.log(projects);
+
 	for(var i = 0; i < projects.length; i++) {
 		projects[i].addEventListener('click', functions.openModal);
 	};
@@ -42,7 +42,9 @@ functions.start = function() {
 	var dots = document.getElementsByClassName('dot');
 	for(var i = 0; i < dots.length; i++){
 		dots[i].addEventListener('click', functions.changeSlideIndex)
-	}
+	};
+	// 
+	document.addEventListener('keydown', functions.handleKeyPress)
 };
 
 functions.whoAmI = function() {
@@ -126,21 +128,21 @@ content.projects.apple  = {
 content.projects.roboto = {
 	img: ['boto-one.png','boto-two.png', 'boto-three.png'],
 	title: 'Roboto roams',
-	description: 'Roboto is the roaming robot who can roam throughout the realms of his ipad home. This simple game includes the ability to change Roboto, into robo-boogey or robo-red, and he can move in any direction with the help of the compass.',
+	description: 'Roboto is the roaming robot who can roam throughout the realms of his ipad home. This simple game includes the ability to change Roboto, into robo-boogey or robo-red, and he can move in any direction with the help of his compass.',
 	technologies: ['html', 'css', 'JS']
 };
 
 content.projects.tv = {
 	img: ['tv-one.png','tv-two.png', 'tv-three.png'],
 	title: 'Netflix who?',
-	description: 'A mock online tv network which enables one to browse through episodes of their favourite shows. On this project I enabled multiple endpoints, worked on templates, search features and bottle. It was a full-stack project, showing I have got the full series of skills to be a top web-developer (get it!). ',
+	description: 'A mock online tv network which enables one to browse through episodes of their favourite shows. On this project I enabled multiple endpoints, worked on templates, search features and bottle. It was a full-stack project, showing I have got the full series (get it!) of skills to be a top web-developer. ',
 	technologies: ['html', 'css', 'JS', 'python', 'bottle']
 };
 
 content.projects.toDo = {
 	img: ['todo-one.png','todo-two.png', 'todo-three.png'],
 	title: 'To do app',
-	description: 'To-do: Write a to-do list... This project involved the use of React and Firebase which I really enjoyed working with. Here, I made a more complicated version of the common to-do list; converting it into a single-page web app. ',
+	description: 'To-do: Write a to-do list... This project involved the use of React and Firebase which I really enjoyed working with. I made a more complicated version of the common to-do list, converting it into a single-page web app. ',
 	technologies: ['html', 'css', 'JS', 'firebase']
 };
 
@@ -154,7 +156,7 @@ content.projects.teachings = {
 content.projects.memory = {
 	img: ['memory-one.png','memory-two.png', 'memory-three.png'],
 	title: 'Memory game',
-	description: 'This was basically my first React project, the beginning of a beautiful relationship. It was initially a bit of a struggle to get used to react and I remember getting a bit stuck with the logic on this project but eventually I made it through. To create a memory game about.... food!',
+	description: 'This was basically my first React project, the beginning of a beautiful relationship. It was initially a bit of a struggle to get used to react and I remember getting a bit stuck with the logic on this project but eventually I made it through, creating a memory game about.... food!',
 	technologies: ['html', 'css', 'JS', 'React']
 };
 
@@ -170,7 +172,7 @@ functions.renderModalContent = function() {
 	var title = document.getElementById('modal-title');
 	var description = document.getElementById('modal-description');
 	var technologies = document.getElementById('modal-technologies');
-	//image.style.backgroundImage = `url(./images/${keyObject.img})`;
+
 	title.innerText = keyObject.title;
 	description.innerText = keyObject.description;
 
@@ -190,10 +192,10 @@ functions.changeSlideIndex = function() {
 	}
 
 	functions.changeModalSlide(content.projects.slideIndex = index);
-	for (i = 0; i < dots.length; i++) {
+	/*for (i = 0; i < dots.length; i++) {
       		dots[i].className = dots[i].className.replace(" active", "");
   	}
-	this.className += ' active'
+	this.className += ' active'*/
 }
 
 functions.changeModalSlide = function (num) {
@@ -209,6 +211,22 @@ functions.changeModalSlide = function (num) {
 	};
 
 	slide.style.backgroundImage = `url(./images/${slides[content.projects.slideIndex]})`;
+	for (i = 0; i < dots.length; i++) {
+      		dots[i].className = dots[i].className.replace(" active", "");
+  	};
+	dots[content.projects.slideIndex].className += ' active';
+};
 
-}
+functions.handleKeyPress = function (e) {
+	var code = e.which || e.keyCode;
+	if(document.getElementById('my-modal').style.display !== 'flex'){
+		return
+	}
+	if (code == '37') {
+		functions.changeModalSlide(content.projects.slideIndex -= 1)
+	} else if (code =='39') {
+
+		functions.changeModalSlide(content.projects.slideIndex += 1)
+	}
+};
 functions.start();

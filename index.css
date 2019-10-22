@@ -244,17 +244,23 @@ footer{
 }
 
 .projects-title {
-text-decoration: underline;
-    font-weight: 800;
+	text-decoration: underline;
+    	font-weight: 800;
+	text-align: center;
 }
 
 .figure-caption {
-
 	font-weight: 700;
-    	font-size: medium;
+    	font-size: 30px;
     	margin-bottom: 7px;
     	margin-top: 5px;
 }
+
+.figure-img{
+	padding-bottom: 20px;
+
+}
+
 
 #modal-description {
 	margin: 0px 30px;
@@ -266,3 +272,4 @@ text-decoration: underline;
 	font-weight: 500;
 	font-size: 30px;
 }
+

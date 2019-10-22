@@ -25,5 +25,59 @@
 }
 
 #projects {
-	min-height: unset;
+	min-height: 100vh;
+}
+
+#projects:nth-child(2) {
+	height: 90%;
+	flex-direction: column;
+}
+.mob-row {
+	height: 90%;
+	flex-direction: column;
+	overflow: auto;
+}
+.projects-col {
+    	display:  flex;
+    	justify-content: space-between;
+	flex-direction: column;
+}
+
+#my-modal {
+	align-items: center;
+}
+
+.modal-content {
+	height: 50%;
+	border-radius: 30px;
+}
+
+#modal-title {
+	font-size: 62px;
+}
+#modal-description {
+	font-size: 41px;
+}
+
+
+.figure {
+	width: 600px;
+	height: 300px;
+	margin: 65px;
+}
+
+.figure-caption {
+	font-size: 60px;
+}
+
+.figure > img {
+    max-height: unset;
+}
+
+.projects-title {
+	font-size: 4rem;
+}
+
+#I-am-text {
+	font-size: 6rem;
 }
