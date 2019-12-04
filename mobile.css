@@ -86,3 +86,22 @@
 	font-size: 72px;
 	color: black;
 }
+
+#contact {
+    height: 36vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact > div {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2;
+}
+
+#contact > div > h4{
+    font-size: 72px;
+    font-weight: 700;
+    letter-spacing: 2;
+}

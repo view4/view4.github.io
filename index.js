@@ -184,6 +184,7 @@ functions.renderModalContent = function() {
 	functions.changeModalSlide(content.projects.slideIndex = 0);
 };
 
+
 functions.changeSlideIndex = function() {
 	var dots = document.getElementsByClassName('dot');
 	var index = this.classList[1];
@@ -201,7 +202,8 @@ functions.changeSlideIndex = function() {
       		dots[i].className = dots[i].className.replace(" active", "");
   	}
 	this.className += ' active'*/
-}
+};
+
 
 functions.changeModalSlide = function (num) {
 
