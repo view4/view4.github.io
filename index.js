@@ -38,6 +38,11 @@ functions.start = function() {
 	next.addEventListener('click', () => functions.changeModalSlide(content.projects.slideIndex += 1));
 	prev.addEventListener('click', () => functions.changeModalSlide(content.projects.slideIndex -= 1));
 
+	// event listeners for mobile swiping carousels.
+	var slideContainer = document.getElementsByClassName('myslides')[0];
+	slideContainer.addEventListener('touchstart', functions.handleCarouselTouch, false);
+	slideContainer.addEventListener('touchend', functions.determineSwipeDirection, false);
+
 	// event Listeners for modal carousels
 	var dots = document.getElementsByClassName('dot');
 	for(var i = 0; i < dots.length; i++){
@@ -229,4 +234,20 @@ functions.handleKeyPress = function (e) {
 		functions.changeModalSlide(content.projects.slideIndex += 1)
 	}
 };
+
+functions.handleCarouselTouch = function(e) {
+	e.preventDefault();
+	content.carouselTouch = e.touches[0].clientX;
+
+};
+
+functions.determineSwipeDirection = function(e) {
+	var te = e.changedTouches[0].clientX;
+	if(content.carouselTouch > te + 5) {
+		functions.changeModalSlide(content.projects.slideIndex += 1);
+	} else if (content.carouselTouch < te - 5 ){
+		functions.changeModalSlide(content.projects.slideIndex -= 1);
+	}
+};
+
 functions.start();
