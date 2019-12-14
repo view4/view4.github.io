@@ -127,42 +127,43 @@ content.projects = {};
 content.projects.apple  = {
 	img: ['apple.png','apple-two.png', 'apple-three.png'],
 	title: 'Recreating the apple webpage',
-	description: 'A basic project where I recreated the apple landing page from scratch. This project shows the extent of my ability to pay attention to detail and be a design-orientated developer. This was a great way to hone my bread and butter developer with the practice of HTML and CSS'
+	description: 'A basic project where I recreated the apple landing page from scratch. This project shows the extent of my ability to pay attention to detail and be a design-orientated developer. This was a great way to hone my bread and butter developer with the practice of HTML and CSS',
+	technologies: ['html', 'css']
 };
 
 content.projects.roboto = {
 	img: ['boto-one.png','boto-two.png', 'boto-three.png'],
 	title: 'Roboto roams',
 	description: 'Roboto is the roaming robot who can roam throughout the realms of his ipad home. This simple game includes the ability to change Roboto, into robo-boogey or robo-red, and he can move in any direction with the help of his compass.',
-	technologies: ['html', 'css', 'JS']
+	technologies: ['html', 'css', 'javascript']
 };
 
 content.projects.tv = {
 	img: ['tv-one.png','tv-two.png', 'tv-three.png'],
 	title: 'Netflix who?',
-	description: 'A mock online tv network which enables one to browse through episodes of their favourite shows. On this project I enabled multiple endpoints, worked on templates, search features and bottle. It was a full-stack project, showing I have got the full series (get it!) of skills to be a top web-developer. ',
-	technologies: ['html', 'css', 'JS', 'python', 'bottle']
+	description: 'A mock online tv network which enables one to browse through episodes of their favourite shows. On this project I enabled multiple endpoints, worked on templates, search features and bottle. It was a full-stack project, showing I have got the full series (get it!) of skills as a top web-developer. ',
+	technologies: ['html', 'css', 'javascript', 'python']
 };
 
 content.projects.toDo = {
 	img: ['todo-one.png','todo-two.png', 'todo-three.png'],
 	title: 'To do app',
 	description: 'To-do: Write a to-do list... This project involved the use of React and Firebase which I really enjoyed working with. I made a more complicated version of the common to-do list, converting it into a single-page web app. ',
-	technologies: ['html', 'css', 'JS', 'firebase']
+	technologies: ['html', 'css', 'javascript', 'firebase', 'react']
 };
 
 content.projects.teachings = {
 	img: ['teachings-one.png','teachings-two.png', 'teachings-three.png'],
 	title: 'Values, values, values...',
 	description: 'Perhaps one of my personal favourite projects, and not for its technological complexity but because of its introspective and meaningful nature. This web app enables one to connect record different aspects of a specific belief or value, something which shows the extensive lack of depth which can be within them. I also used firebase and vanilla javascript on this project',
-	technologies: ['html', 'css', 'JS', 'firebase']
+	technologies: ['html', 'css', 'javascript', 'firebase']
 };
 
 content.projects.memory = {
 	img: ['memory-one.png','memory-two.png', 'memory-three.png'],
 	title: 'Memory game',
 	description: 'This was basically my first React project, the beginning of a beautiful relationship. It was initially a bit of a struggle to get used to react and I remember getting a bit stuck with the logic on this project but eventually I made it through, creating a memory game about.... food!',
-	technologies: ['html', 'css', 'JS', 'React']
+	technologies: ['html', 'css', 'javascript', 'react']
 };
 
 content.projects.slideIndex = 0;
@@ -176,13 +177,33 @@ functions.renderModalContent = function() {
 	//var image = document.getElementById('modal-image');
 	var title = document.getElementById('modal-title');
 	var description = document.getElementById('modal-description');
-	var technologies = document.getElementById('modal-technologies');
+
 
 	title.innerText = keyObject.title;
 	description.innerText = keyObject.description;
 
 	functions.changeModalSlide(content.projects.slideIndex = 0);
+	functions.addTechnologiesIcons();
 };
+
+functions.addTechnologiesIcons = function() {
+	
+	var technologiesContainer = document.getElementById('modal-technologies');
+	var containerChild = technologiesContainer.lastElementChild;
+	while (containerChild) {
+		technologiesContainer.removeChild(containerChild);
+		containerChild = technologiesContainer.lastElementChild;
+	}
+	
+	var technologiesUsed = content.projects[content.projects.activeModalKey].technologies;
+
+	for(let i = 0; i < technologiesUsed.length; i++) {
+		let iconImage = document.createElement('img');
+		iconImage.src = `./images/icons/${technologiesUsed[i]}.png`;
+		iconImage.classList += 'tech-icon';
+		technologiesContainer.appendChild(iconImage);
+	}
+}
 
 
 functions.changeSlideIndex = function() {
